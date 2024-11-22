@@ -42,6 +42,10 @@ In de solution map voer de volgende opdracht uit:
 dotnet new aspire
 ```
 
+Wanneer je de commando uitvoert zal dotnet vragen of je de SLN file wil overschrijven. Let op, je bestaande projecten worden niet toegevoegd.
+
+Gebruik `dotnet sln add ...(project map)` om deze toe te voegen.
+
 ## Aanpassingen in projecten
 
 De volgende aanpassingen zijn gedaan bij het maken van dit voorbeeld. Deze zitten al in deze demo en dienen hier alleen als naslagwerk.
@@ -52,9 +56,13 @@ In de Aspire.AppHost map:
 dotnet add package Aspire.Hosting.NodeJs
 ```
 
+In een nieuw Angular 18 project is de service HttpClient niet standaard inbegrepen. Deze kan als volgt worden toegevoegd.
+
 app.config.ts
 ```js
-    provideHttpClient()
+providers: [...,
+    provideHttpClient(),
+    ...]
 ```
 
 Package.json
