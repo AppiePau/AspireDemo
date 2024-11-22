@@ -42,7 +42,7 @@ In de solution map voer de volgende opdracht uit:
 dotnet new aspire
 ```
 
-Wanneer je de commando uitvoert zal dotnet vragen of je de SLN file wil overschrijven. Let op, je bestaande projecten worden niet toegevoegd.
+Wanneer je de commando uitvoert zal dotnet vragen of je de SLN file wil overschrijven. Let op, je bestaande projecten worden niet toegevoegd. Deze verlies je als je overschrijft.
 
 Gebruik `dotnet sln add ...(project map)` om deze toe te voegen.
 
