@@ -4,7 +4,7 @@ Dit voorbeeld is gemaakt door Paul Appeldoorn en door iedereen vrij te gebruiken
 
 🔗 Website: [www.apula.nl](https://www.apula.nl) \
 🔗 Youtube: [@AppiePau](https://www.youtube.com/@Appiepau) \
-🔗 LinkedIn: [@Apula](https://www.linkedin.com/company/apula)
+🔗 LinkedIn: [@Apula](https://www.linkedin.com/company/apula) \
 🔗 GitHub: [@Apula](https://github.com/AppiePau)
 
 📜 Licentie: MIT
