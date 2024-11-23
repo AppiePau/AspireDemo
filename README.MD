@@ -1,8 +1,8 @@
-# Welkom
+# Welkom - Aspire Demo
 
 Dit voorbeeld is gemaakt door Paul Appeldoorn en door iedereen vrij te gebruiken.
 
-🔗 Website: [www.apula.nl](https://www.apula.nl) \
+🔗 Website: [apula.nl](https://apula.nl) \
 🔗 Youtube: [@AppiePau](https://www.youtube.com/@Appiepau) \
 🔗 LinkedIn: [@Apula](https://www.linkedin.com/company/apula) \
 🔗 GitHub: [github.com/AppiePau](https://github.com/AppiePau)
@@ -11,8 +11,8 @@ Dit voorbeeld is gemaakt door Paul Appeldoorn en door iedereen vrij te gebruiken
 
 ## Vereiste tools
 Voor deze demo moet je minimaal geinstalleerd hebben:
-* .NET 9.0 SDK
-* NodeJS v20.16 of hoger
+* .NET 9.0 SDK.
+* Node.Js v20.16 of hoger.
 
 ## Dit voorbeeld starten
 Om deze demo te kunnen starten moet je eerst de NPM packages installeren:
