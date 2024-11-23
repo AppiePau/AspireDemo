@@ -34,7 +34,10 @@ dotnet new install Aspire.ProjectTemplates::9.00
 ```
 
 > [!WARNING] 
-> Als je al gebruikt maakt van de dotnet workload, deinstalleer deze dan eerst. `donet workload unintall aspire`
+> Als je al gebruikt maakt van de dotnet workload, deinstalleer deze dan eerst. 
+> ```sh
+> dotnet workload unintall aspire
+> ```
 
 Creer een project map om je nieuwe Aspire AppHost in te maken:
 
