@@ -19,7 +19,7 @@ Om deze demo te kunnen starten moet je eerst de NPM packages installeren:
 
 Ga naar de map `frontend` en voer uit: `npm i`
 
-Ga terug naar de hoofdmap en voer uit: `dotnet run -p AspireDemo.AppHost`
+Ga terug naar de hoofdmap en voer uit: `dotnet run -project aspire.apphost`
 
 
 # Naslagwerk
@@ -27,24 +27,27 @@ Om zelf aan de gang te gaan is dit hoofdstuk gewijd aan de aanpassingen. Een soo
 
 ## Aspire installeren
 
-Aller eerst moet de .NET workload bijgewerkt worden. Dit zijn templates om projecten aan te maken. Daar zit standaard geen Aspire in. Gebruik `dotnet workload list` om dit overzicht te krijgen.
-
-Voor de volgende opdrachten met beheer rechten uit:
+Installeer de templates
 
 ```sh
-dotnet workload update
-dotnet workload install aspire
+dotnet new install Aspire.ProjectTemplates::9.00
 ```
 
-In de solution map voer de volgende opdracht uit:
+> [!WARNING] 
+> Als je al gebruikt maakt van de dotnet workload, deinstalleer deze dan eerst. `donet workload unintall aspire`
+
+Creer een project map om je nieuwe Aspire AppHost in te maken:
 
 ```sh
-dotnet new aspire
+mkdir aspire.apphost
+cd aspire.apphost
+dotnet new aspire-apphost
 ```
 
-Wanneer je de commando uitvoert zal dotnet vragen of je de SLN file wil overschrijven. Let op, je bestaande projecten worden niet toegevoegd. Deze verlies je als je overschrijft.
-
-Gebruik `dotnet sln add ...(project map)` om deze toe te voegen.
+Voeg je aspire-apphost project to aan de solution file (.sln):
+```sh
+dotnet sln add aspire-apphost
+```
 
 ## Aanpassingen in projecten
 
