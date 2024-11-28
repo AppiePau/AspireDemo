@@ -22,9 +22,5 @@ export class AppComponent implements OnInit {
     this.http.get('/api/weatherforecast/').subscribe(data => {
       this.weer = data;
     });
-
-    // fetch('/api/weatherforecast/').then(data => {
-    //   data.json().then(json => this.weer = json);
-    // });
   }
 }
