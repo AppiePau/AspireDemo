@@ -2,6 +2,8 @@
 
 Dit voorbeeld is gemaakt door Paul Appeldoorn en door iedereen vrij te gebruiken.
 
+Deze repository is een aanvulling op de video "Hoe jij .NET Core en Angular apps in Aspire werkend maakt" Zie mijn YouTube kanaal:
+
 🔗 Website: [apula.nl](https://apula.nl) \
 🔗 Youtube: [@AppiePau](https://www.youtube.com/@Appiepau) \
 🔗 LinkedIn: [@Apula](https://www.linkedin.com/company/apula) \
